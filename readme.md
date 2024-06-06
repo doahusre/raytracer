@@ -1,9 +1,8 @@
-# CSC305 A3 - Ray Tracing Renderer
+# Ray Tracing Renderer
 ### Author: Dhowa Husrevoglu
-### Student ID: V00955566
 
 ## Introduction
-This project is a ray tracing renderer implemented in C++. It utilizes various libraries including the vector and matrix library GLM, along with standard C++ libraries like vector and string.
+This project is a ray tracing renderer implemented in C++. It utilizes the vector and matrix library GLM, along with standard C++ libraries like vector and string.
 
 ## Features
 - **Ray Tracing:** The renderer is capable of ray tracing, supporting scaled spheres with comprehensive illumination, reflection, and shadows.
@@ -17,7 +16,6 @@ The core parts of the code are located in `ppm.cpp`, and include several key fun
 - `ads`: A function to calculate ambient, diffuse, and specular (ADS) lighting for each light source, including reflections.
 
 ## Usage
-
 After compiling the RayTracer project using the provided Makefile, you can run the program with the following command: ./RayTracer /path/to/your/testfile.txt
 
 If Possible, simply run the bash script: ./test_all.sh
